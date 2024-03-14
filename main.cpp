@@ -3,8 +3,6 @@
 #include <unistd.h>
 #include <netinet/in.h>
 
-ssize_t my_recv(int socket, char *buffer, size_t length, int flag);
-
 int main(int argc, char *argv[])
 {
     //Server server(stoi(argv[1]));
