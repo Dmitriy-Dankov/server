@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
         if (!toggle) {
             toggle = true;
             thread t( [&]() {
-                while (!toggle) usleep(100000);
                 toggle = server.s_clientRequestHandler(256, 50000);
             } );
             t.detach();
