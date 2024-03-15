@@ -1,7 +1,5 @@
 #include "Server.h"
 #include <thread>
-#include <unistd.h>
-#include <netinet/in.h>
 
 int main(int argc, char *argv[])
 {
